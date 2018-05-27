@@ -501,7 +501,7 @@ div.skill{
     margin-bottom: 0;
 }
 
-#section6 .my-xp:before{
+/* #section6 .my-xp:before{
     content: "";
     position: absolute;
     top: 0;
@@ -510,7 +510,7 @@ div.skill{
     width: 2px;
     margin-left: -1.5px;
     background-color: #eee;
-}
+} */
 #section6 .my-xp li{
     position: relative;
     overflow: hidden;
@@ -557,7 +557,8 @@ div.skill{
     display: block;
 }
 #section6 .my-xp li >div{
-    height: 150px;
+    min-height: 150px;
+    height: auto;
 }
 #section6 .my-xp li:not(:first-child){
     margin-top: 80px;
